@@ -1,0 +1,28 @@
+* {
+	margin-top: 10px;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	background: lightgray;
+	font-size: 50px;
+}
+
+.inline .item {
+	display: inline;
+}
+
+.inline-block .item {
+	display: inline-block;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.flex, .inline, .inline-block, .block {
+	margin-top: 200px; 
+}
